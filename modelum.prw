@@ -18,4 +18,18 @@ Local lRet := MsgBox("Tem certeza que deseja excluir o registro selecionado?", "
 
 return lRet
 
-static function Modelumb
+static function Modelumb()
+
+Local lRet := .F.
+local cMsg := ""
+
+If INCLUI
+    cMsg := "Confirma a inclusão do registro?"
+Else
+    cMsg := "Confirma a alteração do registro?"
+End If
+
+lRet := MsgBox(cMsg, "Confirmação", "YESNO")
+
+  
+

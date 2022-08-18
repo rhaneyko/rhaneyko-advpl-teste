@@ -5,8 +5,8 @@ User Function Modelum()
 
 Local cAlias := "SA1"
 Local cTitulo := "Cadastro de Alunos"
-Local cFunExc := ""
-Local cFunAlt := ""
+Local cFunExc := "Modeluma"
+Local cFunAlt := "Modelumb"
 
 AxCadastro(cAlias, cTitulo, cFunExc, cFunAlt)
 

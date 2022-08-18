@@ -16,7 +16,7 @@ static function Modeluma()
 
 Local lRet := MsgBox("Tem certeza que deseja excluir o registro selecionado?", "Confirmação", "YESNO")
 
-return lRet
+RETURN lRet
 
 static function Modelumb()
 
@@ -31,5 +31,4 @@ End If
 
 lRet := MsgBox(cMsg, "Confirmação", "YESNO")
 
-  
-
+RETURN

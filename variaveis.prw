@@ -13,5 +13,6 @@ nResultado := nPrimeiro + nSegundo
 
 Alert(cNome + ". O resultado é" + ENTER + ;
   cValToChar(nResultado))
+  
 return nResultado
 

@@ -16,3 +16,23 @@ For i := 1 to 2
     Next
 
 Return
+
+
+User Function ParDois()
+
+Local i
+Local nIni, nFim
+
+nIni := 100
+nFim := 120
+
+For i := nIni to nFim Step 2
+    If i == 110
+    Exit
+    EndIf
+
+    MsgAlert(i)
+Next
+
+Return Nil
+

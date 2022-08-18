@@ -17,6 +17,7 @@ For i := 1 to 2
 
 Return
 
+//------------------------------------------------------------------------------------------------------------------------------
 
 User Function ParDois()
 
@@ -36,3 +37,23 @@ Next
 
 Return Nil
 
+//------------------------------------------------------------------------------------------------------------------------------
+
+User Function RptWhile()
+
+Local nNumero := nAux := 350
+Local nCnt := 15
+Local nRgs := 0
+
+nAux := Int(nAux / 2)
+
+White nAux < 350
+
+nAux += nCnt
+nRgs ++
+
+ENDDO
+
+Alert("O laço foi executado " + CValToChar(nRgs) + " vezes")
+
+Return 

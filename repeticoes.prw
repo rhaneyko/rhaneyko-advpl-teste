@@ -47,7 +47,7 @@ Local nRgs := 0
 
 nAux := Int(nAux / 2)
 
-White nAux < 350
+While nAux < 350
 
 nAux += nCnt
 nRgs ++

@@ -37,3 +37,12 @@ xVariavel := Date()
 Alert("A variável é:" + cValtoChar(xVariavel))
 
 RETURN
+
+User Function TiposDados()
+
+cNome == Caracter
+nNumero == Numerico
+lRet == Logico
+aDados == Matriz(Array)
+
+RETURN
